@@ -1,0 +1,98 @@
+General Homework Guidelines:
+- Homework must be submitted in a .py file. Please do not submit .ipynb files.
+- Use comments to explain what your code is doing.
+- Use a consistent coding style.
+- Use descriptive variable names.
+- Test your code regularly using a variety of different inputs.
+- Every function must include a DocString for documentation (see:
+   https://realpython.com/documenting-python-code/). This DocString should include:
+     - 1 or 2 lines describing what the function does
+     - input parameters, their types and what they are for
+     - return data type and what it is
+- All tests of your functions should be commented out in your final submission or 
+	enclosed with an if __name__ == '__main__' code block.
+- All functions should use return statements to return a value, rather than printing 
+	some value, unless the instructions specifically say to print.
+
+
+
+
+
+DocString Documentation :
+
+def someFunction(arg1, arg2):
+    """
+    Function DocString. Indent the DocString.
+    One or two lines explaining what the function does
+
+    Args:
+        arg1 (type): what is this argument
+        arg2 (type): what is this argument
+
+    Return:
+        (type): what is being returned by the function ?
+    """
+    #your code here
+
+
+def someFunction2():
+    """
+    Function DocString. Indent the DocString.
+    One or two lines explaining what the function does
+
+    Args:
+        None
+
+    Return:
+        None
+    """
+    #your code here
+    return
+
+
+class SomeClassIMadeUp:
+    """
+    Class DocString. Indent the DocString
+    One or two lines explaining what the class does
+
+    Attributes:
+    ----------------------------------------
+        attr1 (type): what is this attribute
+        attr2 (type): what is this attribute
+	...
+
+    Methods:
+    ----------------------------------------
+        method1: what does this method do
+        method2: what does this method do
+	...
+    """
+
+
+    def method_inside_class(arg1, arg2):
+        """
+        Method DocString. Indent the DocString
+        One or two lines explaining what the method does
+
+        Args: (don't include 'self' in the arguments)
+            arg1 (type): what is this argument
+            arg2 (type): what is this argument
+
+        Return:
+            (type): what is being returned by the method ?
+        """
+        #code from the method here...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
